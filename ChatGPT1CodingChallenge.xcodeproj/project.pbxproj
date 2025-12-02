@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8889E1D32EDFA82E00526D28 /* MissionsRepository in Frameworks */ = {isa = PBXBuildFile; productRef = 8889E1D22EDFA82E00526D28 /* MissionsRepository */; };
+		8889E1D52EDFA82E00526D28 /* MissionsUseCases in Frameworks */ = {isa = PBXBuildFile; productRef = 8889E1D42EDFA82E00526D28 /* MissionsUseCases */; };
+		8889E1D72EDFA82E00526D28 /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = 8889E1D62EDFA82E00526D28 /* NetworkManager */; };
+		88F3E9BF2EDDFA7A0079FCD5 /* AppCore in Resources */ = {isa = PBXBuildFile; fileRef = 88F3E9BE2EDDFA7A0079FCD5 /* AppCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88F3E9A22EDDFA130079FCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F3E98B2EDDFA120079FCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F3E9922EDDFA120079FCD5;
+			remoteInfo = ChatGPT1CodingChallenge;
+		};
+		88F3E9AC2EDDFA130079FCD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88F3E98B2EDDFA120079FCD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88F3E9922EDDFA120079FCD5;
+			remoteInfo = ChatGPT1CodingChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88F3E9932EDDFA120079FCD5 /* ChatGPT1CodingChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatGPT1CodingChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F3E9A12EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPT1CodingChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F3E9AB2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatGPT1CodingChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88F3E9BE2EDDFA7A0079FCD5 /* AppCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = AppCore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		88F3E9952EDDFA120079FCD5 /* ChatGPT1CodingChallenge */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPT1CodingChallenge;
+			sourceTree = "<group>";
+		};
+		88F3E9A42EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPT1CodingChallengeTests;
+			sourceTree = "<group>";
+		};
+		88F3E9AE2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ChatGPT1CodingChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88F3E9902EDDFA120079FCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8889E1D32EDFA82E00526D28 /* MissionsRepository in Frameworks */,
+				8889E1D52EDFA82E00526D28 /* MissionsUseCases in Frameworks */,
+				8889E1D72EDFA82E00526D28 /* NetworkManager in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E99E2EDDFA130079FCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E9A82EDDFA130079FCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8889E1C22EDDFABA00526D28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		88F3E98A2EDDFA120079FCD5 = {
+			isa = PBXGroup;
+			children = (
+				88F3E9BE2EDDFA7A0079FCD5 /* AppCore */,
+				88F3E9952EDDFA120079FCD5 /* ChatGPT1CodingChallenge */,
+				88F3E9A42EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests */,
+				88F3E9AE2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests */,
+				8889E1C22EDDFABA00526D28 /* Frameworks */,
+				88F3E9942EDDFA120079FCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88F3E9942EDDFA120079FCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88F3E9932EDDFA120079FCD5 /* ChatGPT1CodingChallenge.app */,
+				88F3E9A12EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests.xctest */,
+				88F3E9AB2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88F3E9922EDDFA120079FCD5 /* ChatGPT1CodingChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F3E9B52EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallenge" */;
+			buildPhases = (
+				88F3E98F2EDDFA120079FCD5 /* Sources */,
+				88F3E9902EDDFA120079FCD5 /* Frameworks */,
+				88F3E9912EDDFA120079FCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				88F3E9952EDDFA120079FCD5 /* ChatGPT1CodingChallenge */,
+			);
+			name = ChatGPT1CodingChallenge;
+			packageProductDependencies = (
+				8889E1D22EDFA82E00526D28 /* MissionsRepository */,
+				8889E1D42EDFA82E00526D28 /* MissionsUseCases */,
+				8889E1D62EDFA82E00526D28 /* NetworkManager */,
+			);
+			productName = ChatGPT1CodingChallenge;
+			productReference = 88F3E9932EDDFA120079FCD5 /* ChatGPT1CodingChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88F3E9A02EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F3E9B82EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallengeTests" */;
+			buildPhases = (
+				88F3E99D2EDDFA130079FCD5 /* Sources */,
+				88F3E99E2EDDFA130079FCD5 /* Frameworks */,
+				88F3E99F2EDDFA130079FCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F3E9A32EDDFA130079FCD5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88F3E9A42EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests */,
+			);
+			name = ChatGPT1CodingChallengeTests;
+			packageProductDependencies = (
+			);
+			productName = ChatGPT1CodingChallengeTests;
+			productReference = 88F3E9A12EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88F3E9AA2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88F3E9BB2EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallengeUITests" */;
+			buildPhases = (
+				88F3E9A72EDDFA130079FCD5 /* Sources */,
+				88F3E9A82EDDFA130079FCD5 /* Frameworks */,
+				88F3E9A92EDDFA130079FCD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88F3E9AD2EDDFA130079FCD5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				88F3E9AE2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests */,
+			);
+			name = ChatGPT1CodingChallengeUITests;
+			packageProductDependencies = (
+			);
+			productName = ChatGPT1CodingChallengeUITests;
+			productReference = 88F3E9AB2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88F3E98B2EDDFA120079FCD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					88F3E9922EDDFA120079FCD5 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					88F3E9A02EDDFA130079FCD5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 88F3E9922EDDFA120079FCD5;
+					};
+					88F3E9AA2EDDFA130079FCD5 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 88F3E9922EDDFA120079FCD5;
+					};
+				};
+			};
+			buildConfigurationList = 88F3E98E2EDDFA120079FCD5 /* Build configuration list for PBXProject "ChatGPT1CodingChallenge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88F3E98A2EDDFA120079FCD5;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8889E1C12EDDFAAA00526D28 /* XCLocalSwiftPackageReference "AppCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 88F3E9942EDDFA120079FCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88F3E9922EDDFA120079FCD5 /* ChatGPT1CodingChallenge */,
+				88F3E9A02EDDFA130079FCD5 /* ChatGPT1CodingChallengeTests */,
+				88F3E9AA2EDDFA130079FCD5 /* ChatGPT1CodingChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88F3E9912EDDFA120079FCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F3E9BF2EDDFA7A0079FCD5 /* AppCore in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E99F2EDDFA130079FCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E9A92EDDFA130079FCD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88F3E98F2EDDFA120079FCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E99D2EDDFA130079FCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88F3E9A72EDDFA130079FCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88F3E9A32EDDFA130079FCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F3E9922EDDFA120079FCD5 /* ChatGPT1CodingChallenge */;
+			targetProxy = 88F3E9A22EDDFA130079FCD5 /* PBXContainerItemProxy */;
+		};
+		88F3E9AD2EDDFA130079FCD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88F3E9922EDDFA120079FCD5 /* ChatGPT1CodingChallenge */;
+			targetProxy = 88F3E9AC2EDDFA130079FCD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		88F3E9B32EDDFA130079FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88F3E9B42EDDFA130079FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		88F3E9B62EDDFA130079FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatGPT1CodingChallenge/ChatGPT1CodingChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		88F3E9B72EDDFA130079FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatGPT1CodingChallenge/ChatGPT1CodingChallenge.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		88F3E9B92EDDFA130079FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPT1CodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPT1CodingChallenge";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		88F3E9BA2EDDFA130079FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatGPT1CodingChallenge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatGPT1CodingChallenge";
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+		88F3E9BC2EDDFA130079FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ChatGPT1CodingChallenge;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Debug;
+		};
+		88F3E9BD2EDDFA130079FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6TNBKMN5AL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdul.ChatGPT1CodingChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = ChatGPT1CodingChallenge;
+				XROS_DEPLOYMENT_TARGET = 2.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88F3E98E2EDDFA120079FCD5 /* Build configuration list for PBXProject "ChatGPT1CodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3E9B32EDDFA130079FCD5 /* Debug */,
+				88F3E9B42EDDFA130079FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F3E9B52EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3E9B62EDDFA130079FCD5 /* Debug */,
+				88F3E9B72EDDFA130079FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F3E9B82EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3E9B92EDDFA130079FCD5 /* Debug */,
+				88F3E9BA2EDDFA130079FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88F3E9BB2EDDFA130079FCD5 /* Build configuration list for PBXNativeTarget "ChatGPT1CodingChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88F3E9BC2EDDFA130079FCD5 /* Debug */,
+				88F3E9BD2EDDFA130079FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		8889E1C12EDDFAAA00526D28 /* XCLocalSwiftPackageReference "AppCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = AppCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8889E1D22EDFA82E00526D28 /* MissionsRepository */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MissionsRepository;
+		};
+		8889E1D42EDFA82E00526D28 /* MissionsUseCases */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MissionsUseCases;
+		};
+		8889E1D62EDFA82E00526D28 /* NetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkManager;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 88F3E98B2EDDFA120079FCD5 /* Project object */;
+}
