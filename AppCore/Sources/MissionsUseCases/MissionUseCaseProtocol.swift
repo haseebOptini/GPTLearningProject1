@@ -1,7 +1,3 @@
-public protocol MissionUseCaseProtocol {
-    func fetchMissions() -> [Mission]
-}
-// TODO: Need to provide the actual implementation for
-public struct Mission: Hashable, Sendable {
-    
+public protocol MissionsUseCaseProtocol {
+    func fetchMissions() async throws -> [Launch]
 }
