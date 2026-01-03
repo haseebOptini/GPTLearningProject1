@@ -1,7 +1,3 @@
-import Foundation
-public protocol EndpointProtocol: Sendable {
-    var url : String { get }
-    var path: String { get }
-    var httpMethod: HTTPMethod { get }
-    var queryParameters: [URLQueryItem] { get }
+public protocol NetworkManagerProtocol {
+    func request<T: Decodable>(_ endPoint: EndpointProtocol, type:T.Type ) async throws -> T
 }

@@ -14,7 +14,7 @@ public enum ServiceError: Error {
     case invalidRequest
     case requestFailed
     case unauthorized
-    
+
     public var errorMessage: String {
         switch self {
         case .invalidURL:
