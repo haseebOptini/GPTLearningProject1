@@ -9,8 +9,8 @@ public struct MissionsRepository: MissionsRepositoryProtocol {
     }
 
     // MARK: - MissionsRepositoryProtocol
-    public func fetchMissions() async throws -> LaunchesResponseDTO {
-        let endpoint: EndpointProtocol = MissionsEndPoint()
+    public func fetchMissions(limit: Int, offset: Int) async throws -> LaunchesResponseDTO {
+        let endpoint: EndpointProtocol = MissionsEndPoint(limit: limit, offset: offset)
         return try await networkManager.request(endpoint, type: LaunchesResponseDTO.self)
     }
 }
