@@ -1,5 +1,5 @@
 import Foundation
-public final class NetworkClient: NetworkManagerProtocol {
+public final class NetworkManager: NetworkManagerProtocol {
     // MARK: - Private properties
     private let decoder: JSONDecoder
     private let session: URLSession
